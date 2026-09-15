@@ -1,0 +1,15 @@
+{
+  "testCommand": "npx hardhat test",
+  "passing": 6,
+  "failing": 0,
+  "date": "2026-09-15",
+  "suite": "Flash Loan Risk Lab (educational)",
+  "cases": [
+    "VulnerableVault: spot spike enables oversized borrow (lab drain)",
+    "MitigatedVault: TWAP + circuit breaker blocks spiked borrow",
+    "MitigatedVault: honest borrow at TWAP still works",
+    "LabAttacker flash path: Vulnerable succeeds, Mitigated blocked",
+    "FlashLoanPool requires full repayment (insufficient seed reverts)",
+    "LabOracle starts at $1 and is freely settable (lab model)"
+  ]
+}
