@@ -1,4 +1,4 @@
-# Flash Loan Risk Lab
+﻿# Flash Loan Risk Lab
 
 **Educational lab · demo funds only · not production DeFi · not financial advice.**
 
@@ -6,13 +6,13 @@ Interactive Next.js demo + Hardhat contracts: VulnerableVault (spot oracle drain
 
 ## Live demo
 
-Pending Vercel production deploy from Shadow (`vercel --prod --yes --scope na-ndureddy-s-projects`).
+https://flash-loan-risk-lab.vercel.app
 
 Repo: https://github.com/Harshanandhan/flash-loan-risk-lab
 
 ## Try the UI
 
-1. Open live URL or `npm run dev`
+1. Open the live URL or `npm run dev`
 2. Simulate flash borrow → Manipulate lab price → Attempt drain (Vulnerable) then (Mitigated)
 3. Read evidence panel (6 Hardhat tests)
 
@@ -23,6 +23,12 @@ npm install --legacy-peer-deps
 npx hardhat test
 # 6 passing (2026-09-15)
 ```
+
+## Evidence
+
+- Hardhat: **6 passing** (2026-09-15)
+- Commit at first Vercel prod: `a9576bc`
+- Deploy alias: https://flash-loan-risk-lab.vercel.app
 
 ## Limits
 
